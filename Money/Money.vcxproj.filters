@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Filtr">
+      <UniqueIdentifier>{3333a186-00a1-402a-99ab-a081d14e21be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effect">
+      <UniqueIdentifier>{54d74f6d-cee5-4516-b300-35efb1bce5d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effect">
+      <UniqueIdentifier>{84e26f93-d764-4025-bbc4-2002a6c4dfcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Filtr">
+      <UniqueIdentifier>{71689d62-2d41-4598-a845-92f5d82b2825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Source">
+      <UniqueIdentifier>{eb93f622-a167-4d8e-afcc-237748fd84fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Source">
+      <UniqueIdentifier>{3ffc8df5-6556-4e04-9165-5b2d569d5e83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowEffect.cpp">
+      <Filter>Source Files\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraEffect.cpp">
+      <Filter>Source Files\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="FiltrCanny.cpp">
+      <Filter>Source Files\Filtr</Filter>
+    </ClCompile>
+    <ClCompile Include="FiltrLaplace.cpp">
+      <Filter>Source Files\Filtr</Filter>
+    </ClCompile>
+    <ClCompile Include="FiltrSobel.cpp">
+      <Filter>Source Files\Filtr</Filter>
+    </ClCompile>
+    <ClCompile Include="FiltrHough.cpp">
+      <Filter>Source Files\Filtr</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>Source Files\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Source Files\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FiltrCanny.h">
+      <Filter>Header Files\Filtr</Filter>
+    </ClInclude>
+    <ClInclude Include="FiltrLaplace.h">
+      <Filter>Header Files\Filtr</Filter>
+    </ClInclude>
+    <ClInclude Include="FiltrSobel.h">
+      <Filter>Header Files\Filtr</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraEffect.h">
+      <Filter>Header Files\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowEffect.h">
+      <Filter>Header Files\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="FiltrHough.h">
+      <Filter>Header Files\Filtr</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>Header Files\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Header Files\Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="money\1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="money\10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="money\100.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="money\2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="money\20.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="money\200.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="money\5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="money\50.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="money\500.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
